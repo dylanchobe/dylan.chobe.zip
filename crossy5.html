@@ -3,6 +3,34 @@
 	<head>
 		<title>crossy5 - Dylan Chope</title>
         <link rel="icon" href="favicon.ico">
+		<style>
+  #mobile-warning {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #main-content {
+      display: none;
+    }
+
+    #mobile-warning {
+      display: block;
+      text-align: centre;
+      padding: 2rem;
+    }
+  }
+</style>
+
+<div id="main-content">
+  <!-- Your normal desktop site content -->
+</div>
+
+<div id="mobile-warning">
+  <p>This site isn't optimised for small screens.</p>
+  <a href="https://your-mobile-site.example.com">
+    <button>Click here for the mobile version</button>
+  </a>
+</div>
  </head>
 
  <body style="background-color:#FAECAE;color:#000000 style=color:#000000;text-align:right;">
