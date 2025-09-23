@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>tuesday i - Dylan Chope</title>
+        <link rel="icon" href="favicon.ico">
+ </head>
+
+<body style="background-color:#FAECAE;color:#000000 style=color:#000000;text-align:left;">
+ 	<p style='font-size:30px;'>Dylan Chope</p>
+ 	<p style='font-size:20px;'>musician/composer</p>
+ 	 	<a href="index.html">home</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="consume.html">consume</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="about.html">about</a><br><br>
+ 	<a style='font-size:30px;'href="crossies.html">back</a><br><br><br>
+
+<!-- Include the CryptoJS library for hashing the user id before sending it to the PuzzleMe server. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<!-- Include the javascript library for embedding this puzzle. -->
+<script id="pm-script" src="https://puzzleme.amuselabs.com/pmm/js/puzzleme-embed.js"></script>
+<!-- Specify the Amuse Labs server name from where the puzzles will be served and trigger the embed flow. -->
+<script>
+    PM_Config.PM_BasePath = "https://puzzleme.amuselabs.com/pmm/";
+</script>
+<!-- Specifies the puzzle to be embedded on the page. If you want to render multiple games on your page then you can copy paste it multiple times. -->
+<div style="position: relative; text-align: center;"><div class="pm-embed-div" data-id="7f80b367" data-set="de0bd424bc88c63a9710c79902db897c01cb1d01067ad81d55c6e4161e9621f5" data-puzzleType="crossword" data-height="700px" data-mobileMargin="10px"></div><div class="pm-attribution-div" style="font-family: sans-serif; font-size: 12px; color: rgb(102, 102, 102); position: absolute; top: 100%; left: 50%; transform: translate(-50%); padding-top: 5px; width: 100%;">Created by Dylan Chope with the free <a href="https://amuselabs.com/games/crossword/" target="_blank" style="color: #666666; text-decoration: underline;">crossword puzzle creator</a> from Amuse Labs</div></div>
+
+<br><br><br>
+<a href="https://www.youtube.com/@dylanchope8992" style='font-size:20px;'>YouTube</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="https://www.instagram.com/dylanchobe/" style='font-size:20px;'>Instagram</a>&nbsp;&nbsp;&nbsp;
+ 	<a href="https://linktr.ee/dylanchobe" style='font-size:20px;'>Linktree</a>
+
+ </body>
